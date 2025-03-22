@@ -135,11 +135,19 @@ nav .search
     transition: 0.5s ease-in-out;
 }
 
-.searchBox.active {
+.searchBtn.active {
     left: 0;
 }
 
 .closeBtn{
     opacity: 0;
     visibility: hidden;
+    scale:0;
+}
+
+.closeBtn.active{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
+    scale:1;
 }
