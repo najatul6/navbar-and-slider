@@ -1,3 +1,4 @@
+// Search Button Functionality Start
 let searchBtn=document.querySelector('.searchBtn')
 let closeBtn=document.querySelector('.closeBtn')
 let searchBox=document.querySelector('.searchBox')
@@ -11,3 +12,5 @@ closeBtn.onclick=function(){
     closeBtn.classList.remove('active')
     searchBtn.classList.remove('active')
 }
+
+// Search Button Functionality End
