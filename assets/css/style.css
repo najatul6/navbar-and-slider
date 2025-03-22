@@ -151,3 +151,9 @@ nav .search
     transition: 0.5s;
     scale:1;
 }
+
+.menuToggle
+{
+    position: relative;
+    /* display: none; */
+}
