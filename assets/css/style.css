@@ -130,7 +130,7 @@ nav .search
 
 .searchBtn{
     position:relative;
-    left: 30px;
+    left: 20px;
     top: 2.5px;
     transition: 0.5s ease-in-out;
 }
@@ -155,5 +155,8 @@ nav .search
 .menuToggle
 {
     position: relative;
-    /* display: none; */
+    display: none;
+    cursor: pointer;
+    font-size: 1.25em;
 }
+
