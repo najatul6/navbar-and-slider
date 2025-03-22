@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="assets/css/style.css" />
 
     <!-- Scripts Here -->
-   
 
     <!-- Font Awesome -->
     <script
@@ -30,33 +29,32 @@
         </ul>
         <div class="search">
           <span class="icon">
-            <i class="fa-solid fa-magnifying-glass" class=""searchBtn></i>
-            <i class="fa-solid fa-xmark" class="closeBtn"></i>
+            <i class="fa-solid fa-magnifying-glass searchBtn"></i>
+            <i class="fa-solid fa-xmark closeBtn"></i>
           </span>
         </div>
         <div class="searchBox">
-            <input type="text" placeholder="Search Here" />
+          <input type="text" placeholder="Search Here" />
         </div>
         <div class="cart">
-            <span class="icon">
-                <i class="fa-solid fa-cart-shopping"></i>
-            </span>
+          <span class="icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </span>
         </div>
       </div>
     </nav>
 
-
     <!-- Scripts Here -->
-    <script >
-        let searchBtn=document.querySelector('.searchBtn')
-let closeBtn=document.querySelector('.closeBtn')
-let searchBox=document.querySelector('.searchBox')
-searchBtn.onclick=function(){
-    searchBox.classList.add('active')
-}
-closeBtn.onclick=function(){
-    searchBox.classList.remove('active')
-}
+    <script>
+      let searchBtn = document.querySelector(".searchBtn");
+      let closeBtn = document.querySelector(".closeBtn");
+      let searchBox = document.querySelector(".searchBox");
+      searchBtn.onclick = function () {
+        searchBox.classList.add("active");
+      };
+      closeBtn.onclick = function () {
+        searchBox.classList.remove("active");
+      };
     </script>
   </body>
 </html>
