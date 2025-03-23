@@ -23,9 +23,12 @@ let nav=document.querySelector('nav')
 let navigation=document.querySelector('.navigation')
 let menuToggle=document.querySelector('.menuToggle')
 
+
+
 menuToggle.onclick=function(){
     nav.classList.toggle('open')
     searchBox.classList.remove('active')
     closeBtn.classList.remove('active')
     searchBtn.classList.remove('active')
 }
+
