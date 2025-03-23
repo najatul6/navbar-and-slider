@@ -13,30 +13,31 @@ body {
   width: 100%;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background: #00e5ff;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #00e5ff;
 }
 
-.phonemail
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
+.phonemail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.phn {
+  border: 1px solid #fff;
+  height: 20px;
 }
 
-.socailIcons{
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 12px;
+.socailIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
 }
-
-
 
 nav {
   position: sticky;
@@ -139,7 +140,6 @@ nav ul li ul li a {
   display: block;
 }
 
-
 nav .search {
   position: relative;
   display: flex;
@@ -208,6 +208,16 @@ nav .search {
 }
 
 @media (max-width: 770px) {
+  header {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .phonemail {
+    flex-direction: column;
+  }
+  .phn {
+    display: none;
+  }
   .searchBtn {
     left: 0;
   }
