@@ -21,6 +21,22 @@ header{
     background: #00e5ff;
 }
 
+.phonemail
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.socailIcons{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 12px;
+}
+
+
 
 nav {
   position: sticky;
