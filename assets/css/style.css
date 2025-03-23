@@ -212,8 +212,7 @@ nav .search {
 /* Carousel Start   */
 .carousel-container {
   display: flex;
-  /* width: 80%; */
-  max-width: 100%;
+  width: 100%;
   position: relative;
 }
 
@@ -221,7 +220,7 @@ nav .search {
   flex: 1;
   overflow: hidden;
   position: relative;
-  height: 400px;
+  min-height: 100vh;
 }
 
 .slide {
@@ -240,7 +239,9 @@ nav .search {
 .slide img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .thumbnails {
