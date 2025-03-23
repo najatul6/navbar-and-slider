@@ -246,22 +246,27 @@ nav .search {
 
 .thumbnails {
   position: absolute;
+  right:10px;
+  top: 20%;
   display: flex;
   flex-direction: column;
   margin-left: 10px;
 }
 
 .thumbnail {
-  width: 80px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   margin: 5px 0;
   cursor: pointer;
+  border-radius: 50px;
+  overflow: hidden;
   opacity: 0.6;
   transition: opacity 0.3s ease;
 }
 
 .thumbnail.active {
   opacity: 1;
+  border: 2px solid #ff0000;
 }
 
 .thumbnail img {
