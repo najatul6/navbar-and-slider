@@ -324,4 +324,8 @@ nav .search {
   .hide {
     display: none;
   }
+  .carousel-slides {
+    
+   height: 400px;
+  }
 }
