@@ -185,6 +185,7 @@ nav .search {
   left: 30px;
   top: 2.5px;
   transition: 0.5s ease-in-out;
+  visibility: hidden;
 }
 
 .searchBtn.active {
@@ -220,7 +221,8 @@ nav .search {
   flex: 1;
   overflow: hidden;
   position: relative;
-  min-height: 100vh;
+  height: 100vh;
+ max-height: 100vh;
 }
 
 .slide {
@@ -242,6 +244,7 @@ nav .search {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .thumbnails {
@@ -259,8 +262,9 @@ nav .search {
   margin: 5px 0;
   cursor: pointer;
   border-radius: 50px;
+  border: 2px solid #fff;
   overflow: hidden;
-  opacity: 0.6;
+  opacity: 0.9;
   transition: opacity 0.3s ease;
 }
 
@@ -289,9 +293,12 @@ nav .search {
     display: none;
   }
   .searchBtn {
+    display: none;
+    visibility: hidden; /* Hide the search button */
     left: 0;
   }
   .menuToggle {
+    
     display: block;
     font-size: 2em;
     position: absolute;
@@ -325,7 +332,6 @@ nav .search {
     display: none;
   }
   .carousel-slides {
-    
-   height: 400px;
+   height: 300px;
   }
 }
